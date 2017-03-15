@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sanity should contain the right methods 1`] = `
+Array [
+  "foo",
+  "bar",
+]
+`;

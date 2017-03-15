@@ -1,0 +1,14 @@
+.root {
+  text-align: center;
+}
+
+.containter {
+  background: darksalmon;
+  color: darkslategray;
+}
+
+.item {
+  border-radius: 4px;
+  border: 6px solid rgba(0,0,0,.5);
+  border-bottom-width: 0;
+}

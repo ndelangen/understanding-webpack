@@ -1,0 +1,9 @@
+{
+  "rootDir": "./src/",
+  "testEnvironment": "node",
+  "cacheDirectory": "./.tmp/jest",
+  "testPathIgnorePatterns": ["/node_modules/", "<rootDir>/scripts/"],
+  "collectCoverage": true,
+  "coverageReporters": ["lcov", "text-summary"],
+  "coverageDirectory": "../coverage"
+}

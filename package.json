@@ -1,0 +1,40 @@
+{
+  "name": "es-modules",
+  "author": "Norbert de Langen",
+  "version": "1.0.0",
+  "description": "Demonstrating EcmaScript modules",
+  "main": "index.js",
+  "scripts": {
+    "start": "scripts/start.js",
+    "test": "NODE_ENV=test scripts/test.js",
+    "build": "webpack --config webpack.config"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "args": "^2.3.0",
+    "babel-cli": "^6.24.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.4.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.0",
+    "babel-preset-env": "^1.2.1",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.24.0",
+    "babili-webpack-plugin": "^0.0.11",
+    "css-loader": "^0.27.3",
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-prettier": "^2.0.1",
+    "fake-style-loader": "^1.0.1",
+    "file-loader": "^0.10.1",
+    "global": "^4.3.1",
+    "html-loader": "^0.4.5",
+    "jest": "^19.0.2",
+    "markdown-loader": "^2.0.0",
+    "prettier": "^0.22.0",
+    "svg-loader": "^0.0.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1"
+  }
+}
