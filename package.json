@@ -1,8 +1,9 @@
 {
-  "name": "es-modules",
+  "private": false,
+  "name": "@ndelangen/understanding-webpack",
   "author": "Norbert de Langen",
   "version": "1.0.0",
-  "description": "Demonstrating EcmaScript modules",
+  "description": "Demonstrating webpack features",
   "main": "index.js",
   "scripts": {
     "start": "scripts/start.js",
