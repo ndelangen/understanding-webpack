@@ -1,6 +1,7 @@
 # DEMO understanding webpack
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/ndelangen/understanding-webpack.svg)](https://greenkeeper.io/)
+
 A small project used to demonstrate webpack 2.
 
 ## Setup environment
