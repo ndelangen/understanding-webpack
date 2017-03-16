@@ -2,7 +2,7 @@ const path = require('path');
 const BabiliPlugin = require('babili-webpack-plugin');
 
 module.exports = {
-  target: 'node',
+  target: 'web',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
@@ -32,7 +32,7 @@ module.exports = {
   // plugins: [
   //   new BabiliPlugin({
   //     deadcode: true,
-  //     mangle: false
+  //     mangle: true
   //   })
   // ]
 };

@@ -7,7 +7,7 @@
   "scripts": {
     "start": "scripts/start.js",
     "test": "NODE_ENV=test scripts/test.js",
-    "build": "webpack --config webpack.config"
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "license": "ISC",

@@ -11,7 +11,7 @@ const dev = (name, sub, options) => {
 const prod = (name, sub, options) => {
   child_process.spawnSync(
     'webpack',
-    ['--config', './webpack.config', '--entry', `./src/${options.entry}`],
+    ['--config', './webpack.config.js', '--entry', `./src/${options.entry}`],
     {
       stdio: ['inherit', 'inherit', 'inherit']
     }
